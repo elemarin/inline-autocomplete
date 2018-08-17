@@ -5,19 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Inline autocomplete!</title>
-    <link rel="stylesheet" href="css/main.css">
+    <script data-main="js/main" src="js/require.js"></script>
     <link rel="stylesheet" href="css/inline-autocomplete.css">
-    <script src="js/inline-autocomplete.js"></script>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
-    <div id="input-placeholder">
-        <input type="text" id="search">
+    <div id="input-container">
+        <input type="text" id="search" placeholder="Try: Star Wars">
         <input type="text" id="suggestion">
+
+        <ul id="suggestions-dropdown">
+            <!-- li items for suggestions go here -->
+        </ul>
     </div>
 
-    <span>try: ["Jurassic Park", "Titanic", "Toy Story", "Loving Vincent","Lilo & Stitch", "Finding Nemo", "Inception", "Star Wars"]
-    </span>
     
 </body>
 </html>

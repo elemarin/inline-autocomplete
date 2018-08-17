@@ -1,12 +1,27 @@
-#input-placeholder{
+#input-container{
     position: relative;
 }
 
-#input-placeholder input{
+#input-container input{
     position: absolute;
 }
 
 #search{
     background: transparent;
     z-index: 10;
+}
+
+#suggestions-dropdown{
+    position: absolute;
+    top: 50px;
+    background: white;
+    width: 24%;
+    display: inline-block;
+    list-style: none;
+    -webkit-padding-start: 0;
+}
+
+#suggestions-dropdown li{
+    margin: 12px 25px;
+    font-family: sans-serif;
 }

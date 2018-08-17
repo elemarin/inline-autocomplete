@@ -3,7 +3,7 @@ body{
     background: linear-gradient(90deg, rgba(55,180,63,1) 35%, rgba(245,255,0,1) 100%);
 }
 
-#input-placeholder input {
+#input-container input {
     padding: 12px 25px;
     font-size: 26px;
     position: absolute;
@@ -11,7 +11,7 @@ body{
     border: none;
 }
 
-#input-placeholder{
+#input-container{
     top: 25vh;
     left: 34vw;
 }
