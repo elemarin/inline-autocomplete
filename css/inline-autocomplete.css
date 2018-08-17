@@ -1,0 +1,12 @@
+#input-placeholder{
+    position: relative;
+}
+
+#input-placeholder input{
+    position: absolute;
+}
+
+#search{
+    background: transparent;
+    z-index: 10;
+}

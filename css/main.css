@@ -1,0 +1,31 @@
+body{  
+    background: rgb(55,180,63);
+    background: linear-gradient(90deg, rgba(55,180,63,1) 35%, rgba(245,255,0,1) 100%);
+}
+
+#input-placeholder input {
+    padding: 12px 25px;
+    font-size: 26px;
+    position: absolute;
+    border-radius: 50px;
+    border: none;
+}
+
+#input-placeholder{
+    top: 25vh;
+    left: 34vw;
+}
+
+#suggestion{
+    color: #b7b5b5;
+}
+
+span{
+    color: white;
+    font-family: monospace;
+    position: relative;
+    top: 48vh;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
